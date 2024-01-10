@@ -1,0 +1,62 @@
+:root{
+    --PrimaryColor:hsl(199, 100%, 33%);
+    --SecondaryColor:hsl(187, 85%, 43%);
+    --gradientColor: linear-gradient(to right, hsl(187, 85%, 43%), 
+     hsl(199, 100%, 33%)); 
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(201, 33%, 16%);
+    --textColor:hsl(240, 4%, 36%);
+    --whiteColorDeam:hsl(0, 0%, 93%);
+    --greyText: rgb(190, 190, 190);
+    --inputColor:rgb(239, 239, 239);
+    --bodyColor:rgb(240, 240, 246);
+    --cardBG:rgb(225, 225, 235);
+  }
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left-h{
+    padding: 1rem;
+    padding-top: 1.5rem;
+    flex:3;
+    display: flex;
+    gap:2rem;
+    flex-direction: column;
+}
+
+.right-h{
+    flex:1
+}
+
+.the-best-ad{
+    margin-top: 8rem;
+    margin-left: 30rem;
+    background-color: #363d42;
+    border-radius: 4rem;
+    width: fit-content;
+    padding: 20px 13px;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.the-best-ad>span{
+    z-index: 2;
+}
+
+.the-best-ad>div{
+    position: absolute;
+    background-color: var(--PrimaryColor);
+    width: 5.4rem;
+    height: 80%;
+    left: 8px;
+    border-radius: 3rem;
+    z-index: 1;
+}
