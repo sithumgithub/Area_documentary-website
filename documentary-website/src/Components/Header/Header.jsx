@@ -7,8 +7,9 @@ const Header = () => {
     <div className="header">
       
       <div className='logoDiv'>
-          <a href='#' className="logo flex">
-            <h1><MdOutlineTravelExplore className='icon' /> Travel Uva.</h1>
+          <a href='#' className="logo1 flex">
+            <h1><MdOutlineTravelExplore className='icon1' />
+            <span> Travel Uva.</span></h1>
             </a>
             </div>
             <ul className='header-menu'>
@@ -18,6 +19,9 @@ const Header = () => {
                 <li>Places</li>
                 <li>Hotels</li>
                 <li>Contacts</li>
+                <li>
+                <button className='btn'>Book Now</button>
+                </li>
               </ul>
       </div>
    )

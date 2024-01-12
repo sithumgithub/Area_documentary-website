@@ -18,36 +18,42 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: var(--whiteColorDeam);
+    background: transparent;
     width: 100%;
     padding: 1rem;
     z-index: 1000;
     box-shadow: 0 2px 4px rgba(2, 15, 29, 0.242); 
     flex: 3;
-
-    .log{
-        color: var(--blackColor);
+  }
+    .logo1{
+        color: var(--inputColor);
         font-weight: 600;
         cursor: pointer;
         align-items: center;
         justify-content: center;
-
-        .icon{
-            font-size: 25px;
-            color: var(--PrimaryColor);
+    }
+        .icon1{
+            font-size: 30px;
+            color: var(--inputColor);
             transform: translateY(5px);
         }
-    }
-}
-
+    
 .header-menu{
     list-style: none;
     display: flex;
     gap: 3rem;
+    color: var(--inputColor);
     flex: 3;
 }
 
 .header-menu>li:hover{
     color: var(--PrimaryColor);
     cursor: pointer;
+}
+
+.btn{
+    position: absolute;
+    right: 9rem;
+    top: 1rem;
+    color: var(--PrimaryColor);
 }
